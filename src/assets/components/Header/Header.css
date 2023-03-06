@@ -1,0 +1,28 @@
+header {
+  padding: 0 24px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: aqua;
+  width: 100%;
+}
+
+.header_wrapper {
+  padding: 26px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.pink{
+    color: #FF4975;
+}
