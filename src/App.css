@@ -1,8 +1,9 @@
 .App {
-  max-width: 1240px;
-  margin: auto;
+  /* max-width: 1240px;
+  margin: auto; */
+  width: 100%;
   position: relative;
-  height: calc(100vh - 81px);
+  height: 100vh;
 }
 
 .App-logo {

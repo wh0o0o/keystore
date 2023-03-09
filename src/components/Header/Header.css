@@ -4,8 +4,8 @@ header {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: aqua;
   width: 100%;
+  z-index: 1;
 }
 
 .header_wrapper {
@@ -13,6 +13,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
 }
 
 .logo {
@@ -23,6 +25,16 @@ header {
   font-size: 24px;
 }
 
-.pink{
-    color: #FF4975;
+.pink {
+  color: #FF4975;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 54px;
+}
+
+li a {
+  color: white;
 }
