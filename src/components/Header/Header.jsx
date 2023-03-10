@@ -25,7 +25,7 @@ const Header = () => {
           <Link to="">
             <img src={basket} alt="" />
           </Link>
-          <Link to="">
+          <Link to="/user">
             <img src={user} alt="" />
           </Link>
         </div>
