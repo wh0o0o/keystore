@@ -38,3 +38,18 @@ ul {
 li a {
   color: white;
 }
+
+@media (max-width: 900px) {
+  .header_wrapper{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 574px) {
+  ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}

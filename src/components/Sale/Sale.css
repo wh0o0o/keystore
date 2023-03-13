@@ -20,6 +20,18 @@
     transform: scale(1);
 }
 
-.sale_bg p{
+.sale_bg p {
     color: white;
+}
+
+@media (max-width: 1600px) {
+    .out_wrapper_sale {
+        margin: 40px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .out_wrapper_sale {
+        margin: 0px;
+    }
 }

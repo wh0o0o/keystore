@@ -9,3 +9,9 @@
     margin-top: 20px;
     cursor: pointer;
 }
+
+@media (max-width: 1400px) {
+   .search{
+    width: 100%;
+   }
+}

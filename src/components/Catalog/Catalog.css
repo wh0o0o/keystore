@@ -71,3 +71,21 @@ input {
 .product img:hover {
     filter: saturate(100%);
 }
+
+@media (max-width: 900px) {
+    .product {
+        width: calc(100% / 3 - 20px);
+    }
+}
+
+@media (max-width: 574px) {
+    .product {
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 430px) {
+    .product {
+        width: 100%;
+    }
+}

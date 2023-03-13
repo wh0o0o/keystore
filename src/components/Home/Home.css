@@ -65,3 +65,22 @@
 .arrow {
     cursor: pointer;
 }
+
+@media (max-width: 574px) {
+    .descr {
+        width: 100%;
+    }
+
+    .arrows{
+        margin-bottom: 60px;
+    }
+
+    .banner_text{
+        width: 100%;
+    }
+
+    .banner_text_inner{
+        gap: 20px;
+        width: 100%;
+    }
+  }
