@@ -1,7 +1,6 @@
 .out_wrapper_sale {
     background-color: #F3F3F3;
     margin: 0 120px;
-    margin-bottom: 120px;
 }
 
 .product_sale {
@@ -14,7 +13,7 @@
     top: 20px;
     background-color: #FF4975;
     color: white;
-    padding: 0px 30px;
+    padding: 10px 30px;
 }
 
 .product_sale:hover {

@@ -18,16 +18,16 @@ const Catalog = () => {
           <label htmlFor="search_input" className="label_search"><img src={search} alt="" /></label>
         </form>
         <div className="catalog">
-          <Link to="" className="product">
+          <Link to="/product" className="product">
               <img src={Image1} alt="" />
           </Link>
-          <Link to="" className="product">
+          <Link to="/product" className="product">
               <img src={Image2} alt="" />
           </Link>
-          <Link to="" className="product">
+          <Link to="/product" className="product">
               <img src={Image3} alt="" />
           </Link>
-          <Link to="" className="product">
+          <Link to="/product" className="product">
               <img src={Image4} alt="" />
           </Link>
         </div>

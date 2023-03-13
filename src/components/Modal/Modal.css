@@ -1,0 +1,68 @@
+.out_modal {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.51);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    transform: scale(0);
+}
+
+.inner_modal {
+    height: 100%;
+    padding: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.out_modal.active {
+    transform: scale(1);
+}
+
+.basket_title {
+    font-size: 28px;
+}
+
+.image_basket {
+    width: 170px;
+    height: 264px;
+    object-fit: cover;
+    filter: saturate(0);
+}
+
+.cart {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.basket_btn {
+    width: 100%;
+    padding: 16px 36px;
+    border: none;
+    text-align: center;
+}

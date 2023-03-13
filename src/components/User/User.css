@@ -1,0 +1,21 @@
+.out_pages {
+    min-height: calc(100vh - 103px);
+}
+
+.user_text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.flex_wrapper{
+    flex-direction: row;
+    align-items: center;
+}
+
+.image_left{
+    width: 279px;
+    height: 279px;
+    object-fit: cover;
+}

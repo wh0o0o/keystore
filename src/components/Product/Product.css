@@ -1,0 +1,16 @@
+.image_product{
+    width: 424px;
+    height: 654px;
+    filter: saturate(0);
+}
+
+.product_text{
+    text-align: left;
+    align-items: flex-start;
+}
+
+.product_btn{
+    border-bottom: 2px solid #FF295D;
+    width: 100%;
+    cursor: pointer;
+}

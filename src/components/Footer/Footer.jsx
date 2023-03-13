@@ -18,6 +18,9 @@ const Footer = () => {
           <li>
             <Link to="">поддержка</Link>
           </li>
+          <li>
+            <Link to="">оферта</Link>
+          </li>
         </ul>
       </div>
     </footer>
